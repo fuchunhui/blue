@@ -1,0 +1,25 @@
+{
+  "name": "blue",
+  "version": "1.0.0",
+  "description": "for team, base components contents, a new attempt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchunhui/blue.git"
+  },
+  "keywords": [
+    "vite",
+    "svelte",
+    "tailwindcss",
+    "components"
+  ],
+  "author": "fuchunhui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuchunhui/blue/issues"
+  },
+  "homepage": "https://github.com/fuchunhui/blue#readme"
+}
