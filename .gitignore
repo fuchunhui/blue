@@ -1,7 +1,7 @@
 .DS_Store
+/.vscode/
 /node_modules/
 /dist/
-/.vscode/
 
 # local env files
 .env.local
@@ -22,5 +22,5 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
-package-lock.json
+# package-lock.json
 
