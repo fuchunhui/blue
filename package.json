@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/fuchunhui/blue/issues"
   },
-  "homepage": "https://github.com/fuchunhui/blue#readme"
+  "homepage": "https://github.com/fuchunhui/blue#readme",
+  "dependencies": {
+    "svelte-router-spa": "^6.0.2"
+  }
 }
