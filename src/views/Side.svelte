@@ -8,7 +8,7 @@
 
 <div>
   {#each list as { label, value }, i}
-    <a target="_blank" href="https://www.youtube.com/watch?v={label}">
+    <a class="p-6" target="_blank" href="https://www.youtube.com/watch?v={label}">
       {i + 1}: {value}
     </a>
   {/each}
