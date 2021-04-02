@@ -1,14 +1,23 @@
 <script lang="ts">
   import { Router } from 'svelte-router-spa';
   import { routes } from './router/index.js';
+  import Side from './views/Side.svelte';
 
-  console.log(routes);
+  const menus = routes.map(({name}) => {
+    const title = name === '/' ? 'home' : name;
+    return {
+      label: title,
+      value: title
+    };
+  });
 </script>
 
 <main>
   <h1>Hello Typescript!</h1>
-
-  <Router {routes} />
+  <div>
+    <Side list={menus}/>
+    <Router {routes} />
+  </div>
 </main>
 
 <style>
