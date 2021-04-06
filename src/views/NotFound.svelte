@@ -45,7 +45,7 @@
 .not-found-text {
   width: 2000px;
   height: 700px;
-  background: url(../assets/404-bg.jpeg);
+  background-image: url('/src/assets/404-bg.jpeg');
 }
 .not-1 {
   font-family: Helvetica, sans-serif, Arial;
