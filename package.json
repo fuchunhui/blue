@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "tailwindcss build src/assets/css/index.css -o src/assets/tailwind.css"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "next",
@@ -15,7 +16,7 @@
     "postcss": "^8.2.9",
     "svelte": "^3.35.0",
     "svelte-preprocess": "^4.6.9",
-    "tailwindcss": "^2.0.4",
+    "tailwindcss": "^2.1.0",
     "typescript": "^4.2.3",
     "vite": "^2.1.3"
   },

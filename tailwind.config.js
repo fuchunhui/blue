@@ -1,14 +1,18 @@
+const production = process.env.NODE_ENV === 'production'; 
+
 module.exports = {
-  purge: [
-    './index.html',
-    './src/**/*.{vue, js, ts, jsx, tsx, svelte}'
+  darkMode: 'media',
+  future: { 
+    purgeLayersByDefault: true, 
+    removeDeprecatedGapUtilities: true,
+  },
+  plugins: [
+
   ],
-  darkMode: 'media', // or 'media' or 'class'
-  theme: {
-    extend: {},
+  purge: {
+    content: [
+      './src/**/*.svelte'
+    ], 
+    enabled: production // disable purge in dev
   },
-  variants: {
-    extend: {},
-  },
-  plugins: []
-}
+};
