@@ -8,4 +8,13 @@
   .flex-basis-64 {
     flex-basis: 64px;
   }
+  .episodes {
+    @apply w-40 h-32 p-2 bg-gray-100 ml-4 rounded-lg
+  }
+  .episodes-label {
+    @apply h-8 leading-8 uppercase text-yellow-600 bg-gray-300 text-center rounded
+  }
+  .episodes-text {
+    @apply mt-1 text-green-800
+  }
 }

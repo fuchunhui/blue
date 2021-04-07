@@ -1,5 +1,6 @@
 import ConfirmBox from '../components/ConfirmBox.svelte';
 import Counter from '../components/Counter.svelte';
+import DoubleCounter from '../components/DoubleCounter.svelte';
 import HelloWorld from '../components/HelloWorld.svelte';
 import TodoList from '../components/TodoList.svelte';
 import NotFound from '../views/NotFound.svelte';
@@ -16,6 +17,10 @@ const routes = [
   {
     name: 'counter',
     component: Counter
+  },
+  {
+    name: 'double',
+    component: DoubleCounter
   },
   {
     name: 'todolist',

@@ -11,6 +11,10 @@
     {
       name: '组件内容优化',
       done: false
+    },
+    {
+      name: '控制台warning内容，总提示"was created with unknown prop currentRoute"',
+      done: false
     }
   ];
 </script>
