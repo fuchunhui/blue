@@ -38,13 +38,7 @@
 </div>
 
 <style>
-.not-found {
-  /* TODO 测试 */
-  height: 800px;
-}
 .not-found-text {
-  width: 2000px;
-  height: 700px;
   background-image: url('/src/assets/404-bg.jpeg');
 }
 .not-1 {

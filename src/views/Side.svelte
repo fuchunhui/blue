@@ -16,7 +16,7 @@
   });
 </script>
 
-<div>
+<div class="w-40 h-full bg-blue-200">
   {#each menus as { label, value }, i}
     <a class="p-6" href="{value}">
       {i + 1}: {label}

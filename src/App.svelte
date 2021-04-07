@@ -5,9 +5,9 @@
   import Side from './views/Side.svelte';
 </script>
 
-<main class="flex-center flex-col">
+<main class="flex-center flex-col h-full text-base">
   <Header />
-  <div>
+  <div class="flex w-full h-full">
     <Side />
     <Router {routes} />
   </div>
@@ -19,7 +19,5 @@
       Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
-  @media (min-width: 480px) {
-
-  }
+  @media (min-width: 480px) {}
 </style>
