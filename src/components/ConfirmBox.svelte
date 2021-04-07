@@ -1,18 +1,8 @@
 <script>
-	let count = 1;
+	import { svg_element } from "svelte/internal";
+	import ArrowCircle from "/src/assets/svg/yes.svg"
 
-	// the `$:` means 're-run whenever these values change'
-	$: doubled = count * 2;
-	$: quadrupled = doubled * 2;
-
-	function handleClick() {
-		count += 1;
-	}
+	console.log(ArrowCircle)
 </script>
 
-<button on:click={handleClick}>
-	Count: {count}
-</button>
-
-<p>{count} * 2 = {doubled}</p>
-<p>{doubled} * 2 = {quadrupled}</p>
+<!-- <ArrowCircle /> -->

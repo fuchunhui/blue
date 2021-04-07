@@ -9,7 +9,7 @@
   <Header />
   <div class="flex w-full h-full overflow-hidden">
     <Side />
-    <div class="w-full h-full overflow-auto bg-blue-100">
+    <div class="w-full h-full overflow-auto bg-blue-100 dark:bg-red-100">
       <Router {routes} />
     </div>
   </div>
