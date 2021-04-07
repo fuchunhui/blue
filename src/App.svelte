@@ -1,6 +1,6 @@
 <script lang="ts">
   import { Router } from 'svelte-router-spa';
-  import { routes } from './router/index.js';
+  import { routes } from './router/index';
   import Header from './views/Header.svelte';
   import Side from './views/Side.svelte';
 </script>

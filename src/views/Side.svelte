@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { routes } from '../router/index.js';
+  import { routes } from '../router/index';
 
   const menus = routes.map(({name}) => {
     const title = name === '/' ? 'home' : name;
