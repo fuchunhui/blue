@@ -17,6 +17,15 @@
   .episodes-text {
     @apply mt-1 text-green-800
   }
+  .line {
+    @apply line-through;
+  }
+  .svg-btn {
+    @apply w-6 h-8 flex-center ml-2
+  }
+  .svg-btn svg {
+    @apply w-4 h-3 cursor-pointer
+  }
 }
 
 @layer utilities {

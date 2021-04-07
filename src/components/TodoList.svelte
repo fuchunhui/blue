@@ -1,6 +1,6 @@
 <div class="p-10">
-  {#each list as {name, done}, index}
-    <label class="block h-8">
+  {#each list as {name, done, line}, index}
+    <label class="block h-8" class:line>
       <input type=checkbox bind:checked={done} disabled>
       {index + 1}. {name}.
     </label>
@@ -24,6 +24,11 @@
     {
       name: '控制台warning内容，提示"was created with unknown prop currentRoute"',
       done: false
+    },
+    {
+      name: '增加svg loader处理svg内容',
+      done: false,
+      line: true
     }
   ];
 </script>
