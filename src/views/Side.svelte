@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Navigate } from 'svelte-router-spa'
   // interface SideMenu {
   //   label: string;
   //   value: string;
@@ -17,9 +18,10 @@
 
 <div>
   {#each menus as { label, value }, i}
-    <a class="p-6" target="_blank" href="https://www.youtube.com/watch?v={label}">
-      {i + 1}: {value}
+    <a class="p-6" href="{value}">
+      {i + 1}: {label}
     </a>
+    <!-- <Navigate to="counter">{label}</Navigate> -->
   {/each}
 </div>
 
