@@ -18,3 +18,24 @@
     @apply mt-1 text-green-800
   }
 }
+
+@layer utilities {
+  .text-indent-0 {
+    text-indent: 0px
+  }
+  .text-indent-1 {
+    text-indent: 0.25rem
+  }
+  .text-indent-2 {
+    text-indent: 0.5rem
+  }
+  .text-indent-3 {
+    text-indent: 0.75rem
+  }
+  .text-indent-4 {
+    text-indent: 1rem
+  }
+  .text-indent-5 {
+    text-indent: 1.25rem
+  }
+}
