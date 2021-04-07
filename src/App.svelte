@@ -5,11 +5,13 @@
   import Side from './views/Side.svelte';
 </script>
 
-<main class="flex-center flex-col h-full text-base">
+<main class="flex-center flex-col h-full text-base min-h-480">
   <Header />
-  <div class="flex w-full h-full">
+  <div class="flex w-full h-full overflow-hidden">
     <Side />
-    <Router {routes} />
+    <div class="w-full h-full overflow-auto bg-blue-100">
+      <Router {routes} />
+    </div>
   </div>
 </main>
 

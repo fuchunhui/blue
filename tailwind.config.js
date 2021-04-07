@@ -12,5 +12,13 @@ module.exports = {
     content: [
       './src/**/*.svelte'
     ]
+  },
+  theme: {
+    minHeight: {
+      '480': '480px'
+    },
+    maxWidth: {
+      '320': '45rem'
+    }
   }
 };

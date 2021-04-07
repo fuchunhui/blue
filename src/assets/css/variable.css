@@ -5,4 +5,7 @@
   .flex-center {
     @apply flex justify-center items-center;
   }
+  .flex-basis-64 {
+    flex-basis: 64px;
+  }
 }
