@@ -14,13 +14,19 @@ module.exports = {
     ]
   },
   theme: {
-    minHeight: {
-      '480': '480px'
-    },
-    maxWidth: {
-      '320': '45rem'
-    },
+    // minHeight: {
+    //   '480': '480px'
+    // },
+    // maxWidth: {
+    //   '320': '45rem'
+    // },
     extend: {
+      minHeight: {
+        '480': '480px'
+      },
+      maxWidth: {
+        '320': '45rem'
+      },
       spacing: {
         '10.5': '42px'
       }
