@@ -14,16 +14,18 @@
       done: true
     },
     {
-      name: '点击左侧菜单，路由url显示错误',
-      done: false
-    },
-    {
       name: '组件内容优化，移除无效的style内容，全部替换为TailwindCSS',
       done: true
     },
     {
-      name: '控制台warning内容，提示"was created with unknown prop currentRoute"',
-      done: false
+      name: '点击左侧菜单，路由url显示错误（svelte-router-spa与vite不兼容）',
+      done: false,
+      line: true
+    },
+    {
+      name: '控制台warning内容，提示"was created with unknown prop currentRoute"（同上）',
+      done: false,
+      line: true
     },
     {
       name: '增加svg loader处理svg内容',
