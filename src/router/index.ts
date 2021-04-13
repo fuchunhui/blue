@@ -3,6 +3,7 @@ import Counter from '../components/Counter.svelte';
 import DoubleCounter from '../components/DoubleCounter.svelte';
 import HelloWorld from '../components/HelloWorld.svelte';
 import TodoList from '../components/TodoList.svelte';
+import RandomNumber from '../components/RandomNumber.svelte';
 import NotFound from '../views/NotFound.svelte';
 
 const routes = [
@@ -21,6 +22,10 @@ const routes = [
   {
     name: 'double',
     component: DoubleCounter
+  },
+  {
+    name: 'random',
+    component: RandomNumber
   },
   {
     name: 'todolist',

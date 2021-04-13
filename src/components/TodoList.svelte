@@ -31,6 +31,10 @@
       name: '增加svg loader处理svg内容',
       done: false,
       line: true
+    },
+    {
+      name: '写文章总结',
+      done: true
     }
   ];
 </script>
