@@ -1,13 +1,14 @@
 <script lang="ts">
   import { routes } from '../router/index';
 
-  const menus = routes.map(({name}) => {
-    const title = name === '/' ? 'home' : name;
+  const menus = routes.filter(({name}) => name !== '/').map(({name}) => {
     return {
-      label: title,
+      label: name,
       value: name
     };
   });
+
+
 </script>
 
 <div class="w-40 h-full bg-blue-200">

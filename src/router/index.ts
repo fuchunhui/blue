@@ -12,6 +12,10 @@ const routes = [
     component: HelloWorld
   },
   {
+    name: 'home',
+    component: HelloWorld
+  },
+  {
     name: 'confirm',
     component: ConfirmBox
   },
