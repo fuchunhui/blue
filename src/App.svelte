@@ -10,7 +10,7 @@
   <div class="flex w-full h-full overflow-hidden">
     <Side />
     <div class="w-full h-full overflow-auto bg-blue-100 dark:bg-red-100">
-      <Router {routes} />
+      <Router {routes} options={ {prefix: 'blue'} }/>
     </div>
   </div>
 </main>

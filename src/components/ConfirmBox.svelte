@@ -6,7 +6,7 @@
 	const sumbit = event => {
 		value = event.detail.value;
 	}
-	const cancel = event => {
+	const cancel = () => {
 		alert('oh, nooo....');
 		value = 'For man is man and master of his fate.'
 	}
