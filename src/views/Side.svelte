@@ -1,14 +1,12 @@
 <script lang="ts">
-  import { routes } from '../router/index';
+import { routes } from '../router/index';
 
-  const menus = routes.filter(({name}) => name !== '/').map(({name}) => {
-    return {
-      label: name,
-      value: name
-    };
-  });
-
-
+const menus = routes.filter(({name}) => name !== '/').map(({name}) => {
+  return {
+    label: name,
+    value: name
+  };
+});
 </script>
 
 <div class="w-40 h-full bg-blue-200">
