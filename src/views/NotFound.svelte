@@ -6,7 +6,7 @@
   const showImg = Math.random() > 0.3;
   const source = Math.random() > 0.5 ? notFound : iamsorry;
 
-  const handleClick = type => {
+  const handleClick = (/** @type {string} */ type) => {
     navigateTo(type);
     alert('当前版本的路由导航失效了...');
   }

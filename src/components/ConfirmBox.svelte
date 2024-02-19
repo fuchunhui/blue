@@ -3,7 +3,7 @@
 
 	let value = 'hello input.'
 
-	const sumbit = event => {
+	const sumbit = (/** @type {{ detail: { value: string; }; }} */ event) => {
 		value = event.detail.value;
 	}
 	const cancel = () => {
