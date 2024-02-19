@@ -19,13 +19,13 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v3.0.0
+        uses: actions/checkout@v4.1.1
 
       # Runs a set of commands using the runners shell
       - name: Install and Build
         run: |
-          pnpm install
-          pnpm run build
+          npm install --force
+          npm run build
           echo test, and install your project.
 
       - name: Deploy to GitHub Pages
